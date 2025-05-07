@@ -24,6 +24,11 @@
     font-weight: bold;
 }
 
+hr {
+    border-bottom: 0px;
+    border-top: 1px solid var(--mid-pink);
+}
+
 body {
     color: var(--brown);
     font-family: atkinson, sans-serif;
