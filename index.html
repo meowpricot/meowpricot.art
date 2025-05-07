@@ -1,14 +1,85 @@
 <!DOCTYPE html>
+<!-- hi welcome to my webbed site -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>meowpricot.art</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="meowpricot's personal website!">
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="img/cat.gif">
     <link rel="stylesheet" href="css/silly.css">
 </head>
 <body>
-    hello world!
+    <div class="main-container">
+    <div class="header">
+        <header><h1>meowpricot!</h1></header>
+    </div>
+    <div class="flex">
+    <div class="sidebar">
+        <h2 class="special">navigation</h2>
+        <h2>me</h2>
+        <a href="index.html"><img src="/img/home.gif" alt="">home</a>
+        <a href="about.html"><img src="/img/about.gif" alt="">about</a>
+        <a href="art.html"><img src="/img/art.gif" alt="">art</a>
+        <h2>site</h2>
+        <a href="credits.html"><img src="/img/credits.gif" alt="">credits</a>
+        <div class="center">
+        <img src="/img/strawberries.png" alt="strawberry png" style="width: 70px;">
+        </div>
+    </div>
+    <div class="main">
+        <div class="marquee">
+            <div class="marquee-content">
+                welcome to my epic website on the internet!!! <img src="/img/cat.gif" alt=""><img src="/img/cat.gif" alt=""><img src="/img/tulip.gif" alt="">
+            </div>
+        </div>
+        <div class="main-padding">
+        <h2>welcome to my silly world</h2>
+        hello and welcome to my personal webbedsite!!
+        <img src="/img/calicocritter.png" alt="calico critter png" style="width: 120px; float: right;">
+        <img src="/img/fish.png" alt="fish takoyaki thing png" style="width: 60px; float: right; z-index: 1; left: 30px; top: -10px; position: relative;">
+        <br>my name is em and i hope you like it here!<br><br>
+        <b>website is a massive work in process currently!</b>
+        <br><br>
+        <h3>statuses</h3>
+        <div class="status-box">
+            <h4>listening...</h4>
+            <div class="header__inner">
+                <img src="/img/music.gif" alt=""><span id="song"><img src="/img/dots.gif" alt=""></span>
+            </div>
+            <div class="header__inner">
+                <small>latest played song on <a href="http://last.fm" target="_blank">last.fm</a></small>
+            </div>
+            <script>
+                let user = 'meowpricot';
+                let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+                let song = document.querySelector('#song');
+                fetch(url)
+                    .then(function (response) {
+                        return response.json()
+                    }).then(function (json) {
+                        song.innerHTML = json['track']['name'] + ' <br> ' + json['track']['artist']['#text'];
+                    });
+            </script>
+        </div>
+        <h3>updates</h3>
+        <div class="status-box2">
+            <b>may 7 2025</b> <img src="/img/up.gif" alt="updated">
+            <br>started work on website!
+        </div>
+        </div>
+        <div class="center">
+            <img src="/img/digitalartist.webp" alt="digital artist blinkie"><img src="/img/pixelartist.webp" alt="pixel artist blinkie"><img src="/img/freelanceartist.webp" alt="freelance artist blinkie">
+        </div>
+        <br>
+    </div>
+    </div>
+    <div class="footer">
+        <footer>
+            meowpricot c.2025
+            <br><a href="https://github.com/meowpricot/meowpricot.art">source</a>
+        </footer>
+    </div>
+    </div>
 </body>
 </html>

@@ -1,3 +1,223 @@
+:root {
+    --pink: #ffe8dd;
+    --yellow: #ffecda;
+    --green: #8c9462;
+    --mid-pink: #d87d7d;
+    --dark-pink: #c74747;
+    --brown: #ad3929;
+    --white: #fffbf6;
+    --gradient1: linear-gradient(180deg,var(--white) 0%, var(--yellow) 100%);
+}
+
+::selection {
+    background-color: var(--pink);
+}
+
+@font-face {
+    font-family: atkinson;
+    src: url(/fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+
+@font-face {
+    font-family: dynapuff;
+    src: url(/fonts/DynaPuff-Regular.ttf);
+    font-weight: bold;
+}
+
 body {
-    background-color: beige;
+    color: var(--brown);
+    font-family: atkinson, sans-serif;
+    background-image: url(/img/w14-bg-checked.gif);
+    font-size: 14px;
+}
+
+img {
+    vertical-align: text-bottom;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-size: unset;
+    border-bottom: 2px solid var(--green);
+    color: var(--green);
+}
+
+h3 {
+    margin: 0;
+    font-size: unset;
+    border-bottom: 2px solid var(--mid-pink);
+    color: var(--mid-pink);
+}
+
+h4 {
+    margin: 0;
+    font-size: unset;
+    border-bottom: 2px solid var(--dark-pink);
+    color: var(--dark-pink);
+}
+
+a {
+    color: var(--dark-pink);
+    text-shadow: 0px 0px 2px var(--pink);
+    position: relative;
+}
+
+a:hover { 
+    background-color: var(--pink);
+    top: -1px;
+}
+
+/* INDEX PAGE */
+
+.main-container {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-image-slice: 22 22 22 22;
+    border-image-width: 22px 22px 22px 22px;
+    border-image-outset: 20px 20px 20px 20px;
+    border-image-repeat: round round;
+    border-image-source: url("/img/lace.gif");
+    border-style: solid;
+    background-color: var(--white);
+}
+
+.header {
+    border: 1px solid var(--brown);
+    height: 100px;
+    background-color: var(--white);
+    background-image: url(/img/meowpricot.webp);
+    background-position: 0 440px;
+    line-height: 140px;
+    border-bottom: 0px;
+}
+
+.header h1 {
+    font-family: dynapuff, sans-serif;
+    font-size: 42px;
+}
+
+.sidebar {
+    background-color: var(--white);
+    border: 1px solid var(--brown);
+    border-right: 0px;
+    width: 120px;
+}
+
+.sidebar h2 {
+    background: var(--pink);
+    display: block;
+    color: var(--brown);
+    border-bottom: 1px solid var(--dark-pink);
+    background-image: url(/img/m01-bg-tattersall.gif);
+    text-align: center;
+    text-shadow: 0px 0px 2px var(--white);
+    font-family: dynapuff;
+}
+
+.sidebar a {
+    background: var(--gradient1);
+    display: block;
+    color: var(--dark-pink);
+    padding: 2px;
+    padding-top: 4px;
+    padding-right: 40px;
+    border-bottom: 1px solid var(--dark-pink);
+    text-decoration: none;
+}
+
+h2.special {
+    background-image: none;
+    background-color: var(--white);
+    font-size: 16px;
+    padding: 4px;
+}
+
+.sidebar img {
+    padding-right: 2px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.sidebar a:hover {
+    background: var(--pink);
+    top: 0px;
+    padding-left: 10px;
+}
+
+.main {
+    background-color: var(--white);
+    border: 1px solid var(--brown);
+    flex-grow: 1;
+}
+
+.main-padding {
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.marquee {
+    border-bottom: 1px solid var(--brown);
+    background-color: var(--pink);
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee-content {
+    display: inline-block;
+    width: max-content;
+  
+    padding-left: 100%;
+    /* show the marquee just outside the paragraph */
+    will-change: transform;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee-content:hover {
+    animation-play-state: paused
+  }
+
+.marquee img {
+    vertical-align: text-bottom;
+}
+
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
+
+.status-box {
+    background-color: var(--yellow);
+    background-image: url(/img/ka02-bg-simple.gif);
+    border: 1px solid var(--mid-pink);
+    margin: 10px;
+    padding: 10px;
+}
+
+.status-box2 {
+    background-color: var(--white);
+    background-image: url(/img/g04-bg-simple.gif);
+    border: 1px solid var(--green);
+    margin: 10px;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+    margin: 0;
 }
