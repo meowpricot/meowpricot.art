@@ -112,7 +112,7 @@ a:hover {
     background-color: var(--white);
     border: 1px solid var(--brown);
     border-right: 0px;
-    width: 160px;
+    width: 180px;
 }
 
 .sidebar h2 {
