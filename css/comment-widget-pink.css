@@ -199,3 +199,14 @@
     margin: auto;
     margin-top: 50px;
 }
+
+/* mobile compatibility */
+
+@media screen and (max-width: 600px) {
+    .comment-container {
+        width: unset;
+  }
+  .comment-back {
+    width: unset;
+  }
+}
