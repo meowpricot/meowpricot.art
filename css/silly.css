@@ -338,6 +338,8 @@ h2.special {
     margin: 10px;
     padding: 10px;
     flex-grow: 1;
+    height: 100px;
+    overflow-y: scroll;
 }
 
 .gallery {
