@@ -90,7 +90,43 @@ li {
     padding: 0px;
 }
 
+textarea {
+    border: 1px solid var(--brown);
+    color: var(--dark-pink);
+    background-color: var(--pink);
+    max-width: 120px;
+    min-width: 100px;
+    max-height: 200px;
+    min-height: 20px;
+    margin: 5px;
+}
+
+textarea:focus {
+    outline: 2px solid var(--mid-pink);
+}
+
 /* INDEX PAGE */
+
+
+.babypixel {
+    background-image: url("/img/baby.gif");
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.babypixel:hover {
+    background-image: url("/img/baby_hover.gif");
+    cursor: pointer;
+}
+
+.babypixel:active {
+    background-image: url("/img/baby_click.gif");
+    bottom: 3px;
+}
 
 .meowhi {
     background-image: url("/img/meowhi.png");
@@ -128,6 +164,7 @@ li {
     max-width: 700px;
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     border-image-slice: 22 22 22 22;
     border-image-width: 22px 22px 22px 22px;
     border-image-outset: 20px 20px 20px 20px;
@@ -264,7 +301,7 @@ h2.special {
 
 .marquee-content:hover {
     animation-play-state: paused
-  }
+}
 
 .marquee img {
     vertical-align: text-bottom;
@@ -273,7 +310,7 @@ h2.special {
 @keyframes marquee {
     0% { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
-  }
+}
 
 .status-box {
     background-color: var(--yellow);
@@ -290,6 +327,8 @@ h2.special {
     margin: 10px;
     padding: 10px;
     width: 50%;
+    height: 100px;
+    overflow-y: scroll;
 }
 
 .status-box3 {
@@ -301,6 +340,44 @@ h2.special {
     flex-grow: 1;
 }
 
+.gallery {
+    background-color: var(--yellow);
+    background-image: url(/img/ka02-bg-simple.gif);
+    border: 1px solid var(--mid-pink);
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery-img {
+    border: 1px solid var(--brown);
+    background-image: unset;
+    background-position: 0 0;
+    background-size: cover;
+    height: 200px;
+    margin: 10px;
+    animation: gallery 10s linear infinite;
+}
+
+.gallery-img:hover {
+    animation-play-state: paused
+}
+
+@keyframes gallery {
+    0% { background-image: url(/img/art/bubbles.webp);
+    background-position: 0% 10%;}
+    50% { background-image: url(/img/art/lia.webp);
+    background-position: 0% 15%;}
+    100% { background-image: url(/img/art/BOOMBA.webp);
+    background-position: 0% 25%;}
+}
+
+/*
+@keyframes gallery {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 50%; }
+}
+*/
+
 .center {
     text-align: center;
     margin: 0;
@@ -310,7 +387,7 @@ h2.special {
 
 @media screen and (max-width: 600px) {
     .flex {
-      display: block;
+        display: block;
     }
     .header h1 {
         text-align: center;
@@ -319,9 +396,6 @@ h2.special {
         width: unset;
         border-right: 1px solid var(--brown);
         border-bottom: 0px;
-    }
-    .main-container {
-        margin-bottom: 50px;
     }
     .status-box2 {
         width: unset;
