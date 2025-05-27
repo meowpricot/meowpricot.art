@@ -1,11 +1,7 @@
 ---
 layout: default
-title: meowpricot.art
-images:
-    - image_path: /assets/img/art/boomba.png
-      title: boomba
-    - image_path: /assets/img/art/bubbles.png
-      title: bubbles
+title: meowpricot.art!
 ---
-
-Hello, world!
+<img class="homeimg" src="/assets/img/art/meowpricot.png" alt="meowpricot">
+hello, i'm em!<br>
+i'm a freelance illustrator from australia.

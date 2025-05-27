@@ -1,7 +1,7 @@
 :root {
     --vanilla: #fff6f6;
     --lemon: #ffe5ab;
-    --melon: #a1c45a;
+    --melon: #5A742A;
     --apricot: #ffcdb5;
     --chocolate: #ae4e2a;
 }
@@ -20,4 +20,43 @@ body {
     background-color: var(--vanilla);
     color: var(--chocolate);
     font-family: Atkinson, sans-serif;
+}
+
+a {
+    color: var(--melon);
+}
+
+a:hover {
+    background-color: var(--lemon);
+}
+
+nav {
+    border-bottom: 1px dotted var(--chocolate);
+    padding-bottom: 1rem;
+}
+
+::selection {
+    background-color: var(--apricot);
+}
+
+header {
+    font-family: Dyna, sans-serif;
+    letter-spacing: 0.2em;
+}
+
+footer {
+    border-top: 2px solid var(--chocolate);
+    padding-top: 1rem;
+    font-size: smaller;
+}
+
+.homeimg {
+    max-width: 100px;
+    float: right;
+    border-left: 1rem solid var(--vanilla);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
 }
