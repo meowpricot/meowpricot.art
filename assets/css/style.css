@@ -1,0 +1,23 @@
+:root {
+    --vanilla: #fff6f6;
+    --lemon: #ffe5ab;
+    --melon: #a1c45a;
+    --apricot: #ffcdb5;
+    --chocolate: #ae4e2a;
+}
+
+@font-face {
+    font-family: Atkinson;
+    src: url(/assets/fonts/AtkinsonHyperlegible-Regular.ttf);
+}
+
+@font-face {
+    font-family: Dyna;
+    src: url(/assets/fonts/DynaPuff-Regular.ttf);
+}
+
+body {
+    background-color: var(--vanilla);
+    color: var(--chocolate);
+    font-family: Atkinson, sans-serif;
+}

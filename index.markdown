@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: meowpricot.art
+images:
+    - image_path: /assets/img/art/boomba.png
+      title: boomba
+    - image_path: /assets/img/art/bubbles.png
+      title: bubbles
 ---
+
+Hello, world!
