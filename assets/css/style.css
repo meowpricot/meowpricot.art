@@ -17,9 +17,11 @@
 }
 
 body {
-    background-color: var(--vanilla);
     color: var(--chocolate);
     font-family: Atkinson, sans-serif;
+    background-image: linear-gradient(var(--apricot) 1px, transparent 1px), linear-gradient(to right, var(--apricot) 1px, transparent 1px);
+	background-size: 10px 10px;
+	background-color: var(--vanilla);	
 }
 
 a {
@@ -44,10 +46,27 @@ header {
     letter-spacing: 0.2em;
 }
 
+h2 {
+    font-family: Dyna, sans-serif;
+    letter-spacing: 0.2em;
+    font-size: medium;
+    border-bottom: 1px var(--chocolate) dotted;
+}
+
 footer {
     border-top: 2px solid var(--chocolate);
     padding-top: 1rem;
     font-size: smaller;
+}
+
+ul hr {
+    border-bottom: 0;
+    border-top: 1px dashed var(--apricot);
+}
+
+hr {
+    border-bottom: 0;
+    border-top: 1px dotted var(--chocolate);
 }
 
 .homeimg {
@@ -57,6 +76,50 @@ footer {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
+    margin-top: 2rem;
+    border: 1px dashed var(--chocolate);
+    padding: 1rem;
+    background-color: var(--vanilla);
+}
+
+.flex {
+    display: flex;
+}
+
+.index-stuff {
+    flex-grow: 1;
+}
+
+.index-stuff ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.index-gallery {
+    max-width: 300px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-img {
+    cursor: pointer;
+    height: 200px;
+}
+
+.f-carousel__slide {
+    max-height: 300px;
+}
+
+.f-carousel__slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footerimg {
+    float: right;
 }
