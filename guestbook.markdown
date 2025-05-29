@@ -1,6 +1,7 @@
 ---
 layout: default
 title: guestbook!
+permalink: /guestbook/
 ---
 
 - no hate speech, trolling or spam

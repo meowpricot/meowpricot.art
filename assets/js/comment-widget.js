@@ -58,7 +58,7 @@ const s_websiteFieldLabel = 'Website (Optional)';
 const s_textFieldLabel = '';
 const s_submitButtonLabel = 'Submit';
 const s_loadingText = 'Loading comments...';
-const s_noCommentsText = 'no comments yet!';
+const s_noCommentsText = 'o comments yet!';
 const s_closedCommentsText = 'Comments are closed temporarily!';
 const s_websiteText = 'Website'; // The links to websites left by users on their comments
 const s_replyButtonText = 'Reply'; // The button for replying to someone
@@ -104,7 +104,7 @@ const v_formHtml = `
     </div>
 
     <div id="c_textWrapper" class="c-inputWrapper">
-        <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}</label>
+        <label class="c-label c-textLabel" for="entry.${s_textId}">${s_textFieldLabel}comment...</label>
         <textarea class="c-input c-textInput" name="entry.${s_textId}" id="entry.${s_textId}" rows="4" cols="50"  maxlength="${s_maxLength}" required></textarea>
         <input name="entry.${s_moderatedId}" id="entry.${s_moderatedId}" type="hidden" readonly value="false">
     </div>

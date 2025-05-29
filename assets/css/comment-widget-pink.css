@@ -155,13 +155,12 @@
 .c-site:hover {color: var(--coco);}
 .c-timestamp {
     float: right;
-    opacity: 60%;
 }
 .c-text {
     margin: 0;
     margin-top: 10px;
     padding: 0;
-    text-align: justify;
+    text-align: left;
     color: var(--chocolate);
 }
 
