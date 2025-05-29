@@ -92,6 +92,7 @@ footer {
     max-width: 600px;
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     border-image-slice: 22 22 22 22;
     border-image-width: 22px 22px 22px 22px;
     border-image-outset: 19px 19px 19px 19px;

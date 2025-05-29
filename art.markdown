@@ -3,6 +3,8 @@ layout: default
 title: art!
 permalink: /art/
 images:
+    - image_path: /assets/img/art/remilia.webp
+      title: remillia from touhou project
     - image_path: /assets/img/art/ishale.webp
       title: ishale
     - image_path: /assets/img/art/lotus.webp

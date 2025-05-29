@@ -10,7 +10,7 @@ images:
       title: commission for bubbles
 updates:
     - update_date: may 29 2025
-      update_content: lace border, css updates
+      update_content: lace border, css updates, guestbook page
     - update_date: may 28 2025
       update_content: added gallery & carousel, art page
     - update_date: may 27 2025
