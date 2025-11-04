@@ -1,30 +1,33 @@
-    name: Deploy Eleventy to GitHub Pages
+name: Build Eleventy
 
-    on:
-      push:
-        branches:
-          - main # Or your primary branch
+on:
+  push:
+    branches:
+      - master
 
-    jobs:
-      build-and-deploy:
-        runs-on: ubuntu-latest
-        steps:
-          - name: Checkout
-            uses: actions/checkout@v3
+jobs:
+  build:
+    runs-on: ubuntu-20.04
 
-          - name: Setup Node.js
-            uses: actions/setup-node@v3
-            with:
-              node-version: '18' # Or your preferred Node.js version
+    strategy:
+      matrix:
+        node-version: [12.x]
 
-          - name: Install dependencies
-            run: npm install
+    steps:
+      - uses: actions/checkout@v2
 
-          - name: Build Eleventy
-            run: npm run build # Assuming you have a build script in package.json
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
 
-          - name: Deploy to GitHub Pages
-            uses: peaceiris/actions-gh-pages@v3
-            with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              publish_dir: ./_site # Or your Eleventy output directory
+      - name: Install dependencies & build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
