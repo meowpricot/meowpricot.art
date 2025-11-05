@@ -1,0 +1,110 @@
+@font-face {
+  font-family: MapleMono-Regular;
+  src: url(/assets/fonts/MapleMono-NF-Regular.ttf);
+}
+
+@font-face {
+  font-family: MapleMono-Itallic;
+  src: url(/assets/fonts/MapleMono-NF-Italic.ttf);
+}
+
+:root {
+    --main-box-color: #fffbf0;
+    --header-bg-color: #fff4e9;
+    --main-bg-color: #ffede8;
+    --darker-bg-color: #eec3c3;
+    --bg-nav-color: #fff6d0;
+    --bg-nav-current-color: #ffeabb;
+    --nav-link-color: #d18f2d;
+    --current-nav-color: #cf640c;
+    --main-font-color: #bd4747;
+    --main-link-color: #17b1b1;
+    --border: 1px solid var(--main-font-color);
+
+}
+
+::selection {
+    background-color: var(--main-bg-color);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-family: "MapleMono-Regular", sans-serif;
+    text-transform: lowercase;
+    font-size: 0.9rem;
+}
+
+a {
+    color: var(--main-link-color);
+}
+
+a:hover {
+    font-style: italic;
+    letter-spacing: 0.05rem;
+    background-color: var(--bg-nav-current-color);
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    border-bottom: var(--border);
+    margin: 0px;
+    font-family: "MapleMono-Itallic", cursive;
+    padding: 5px;
+    background-color: var(--header-bg-color);
+}
+
+h2 {
+    margin: 0px;
+    font-size: medium;
+    border-bottom: 2px solid var(--bg-nav-current-color);
+}
+
+nav {
+    border-right: var(--border);
+    width: 80px !important;
+}
+
+nav a {
+    color: var(--nav-link-color);
+    display: block;
+    border-bottom: var(--border);
+    padding: 2px;
+    background-color: var(--bg-nav-color);
+}
+
+main {
+    padding: 5px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 4px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.current {
+    color: var(--current-nav-color);
+    background-color: var(--bg-nav-current-color);
+}
+
+.mainbox-positioning {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.mainbox {
+    background-color: var(--main-box-color);
+    border: var(--border);
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px var(--darker-bg-color);
+}

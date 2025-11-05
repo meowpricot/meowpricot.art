@@ -1,7 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: meowpricot.art
 ---
-hi i'll work on this eventually
+
+## welcome!
+
+Hello world!
+
+Site is in an extreme WIP state.
+
+<br>*Come back later, OK?*
