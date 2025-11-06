@@ -99,6 +99,21 @@ footer {
     text-align: center;
 }
 
+.thing {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 600px;
+    top: 220px;
+    animation-name: pagedoll;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.thing img {
+    width: 200px;
+}
+
 .flex {
     display: flex;
 }
@@ -134,4 +149,10 @@ footer {
     border-style: solid;
     border-radius: 20px;
     margin: 5px;
+}
+
+@keyframes pagedoll {
+  0% {top: 220px;}
+  50% {top: 230px;}
+  100% {top: 220px;}
 }
