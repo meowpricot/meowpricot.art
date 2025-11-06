@@ -8,15 +8,19 @@
   <body>
     <div class="mainbox-positioning">
         <div class="mainbox">
-            <h1>
-                {{ page.title }}
-            </h1>
+          <div class="innerbox">
+            <header>
+              <h1>
+                  {{ page.title }}
+              </h1>
+            </header>
             <div class="flex">
                 {% include navigation.html %}
                 <main>
                     {{ content }}
                 </main>
             </div>
+          </div>
         </div>
         <footer>
             {% include footer.html %}

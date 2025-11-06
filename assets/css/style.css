@@ -1,25 +1,17 @@
-@font-face {
-  font-family: MapleMono-Regular;
-  src: url(/assets/fonts/MapleMono-NF-Regular.ttf);
-}
-
-@font-face {
-  font-family: MapleMono-Itallic;
-  src: url(/assets/fonts/MapleMono-NF-Italic.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --main-box-color: #fffbf0;
+    --main-box-color: #FFF8F3;
     --header-bg-color: #fff4e9;
     --main-bg-color: #ffede8;
-    --darker-bg-color: #eec3c3;
-    --bg-nav-color: #fff6d0;
-    --bg-nav-current-color: #ffeabb;
+    --darker-bg-color: #FFC7C4;
+    --bg-nav-color: #FFF4D8;
+    --bg-nav-current-color: #fff1cf;
     --nav-link-color: #d18f2d;
     --current-nav-color: #cf640c;
-    --main-font-color: #bd4747;
+    --main-font-color: #d77943;
     --main-link-color: #17b1b1;
-    --border: 1px solid var(--main-font-color);
+    --border: 2px solid var(--darker-bg-color);
 
 }
 
@@ -30,9 +22,11 @@
 body {
     background-color: var(--main-bg-color);
     color: var(--main-font-color);
-    font-family: "MapleMono-Regular", sans-serif;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+    font-optical-sizing: auto;
     text-transform: lowercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 450;
 }
 
 a {
@@ -49,30 +43,40 @@ p {
     margin: 0px;
 }
 
-h1 {
-    border-bottom: var(--border);
-    margin: 0px;
-    font-family: "MapleMono-Itallic", cursive;
-    padding: 5px;
+header {
+    height: 100px;
     background-color: var(--header-bg-color);
+    background-image: url("/assets/img/tulips.png");
+    background-repeat: repeat-x;
+    border-bottom: var(--border);
+    border-radius: 10px 10px 0px 0px;
+    line-height: 90px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 5px;
 }
 
 h2 {
     margin: 0px;
-    font-size: medium;
+    font-size: large;
     border-bottom: 2px solid var(--bg-nav-current-color);
+    font-family: "Sour Gummy", sans-serif;
 }
 
 nav {
     border-right: var(--border);
-    width: 80px !important;
+    width: 200px !important;
 }
 
 nav a {
     color: var(--nav-link-color);
     display: block;
     border-bottom: var(--border);
-    padding: 2px;
+    padding: 10px;
     background-color: var(--bg-nav-color);
 }
 
@@ -81,8 +85,16 @@ main {
     width: 100%;
 }
 
+hr {
+    border: none;
+    height: 11px;
+    background-image: url("/assets/img/wiggly.png");
+    background-repeat: repeat-x;
+}
+
 footer {
-    margin-top: 4px;
+    opacity: 50%;
+    margin-top: 25px;
     font-size: 0.8rem;
     text-align: center;
 }
@@ -97,14 +109,29 @@ footer {
 }
 
 .mainbox-positioning {
-    max-width: 400px;
+    max-width: 800px;
     margin: auto;
     margin-top: 40px;
 }
 
 .mainbox {
     background-color: var(--main-box-color);
-    border: var(--border);
+    border-image-slice: 48 48 48 48;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 20px 20px 20px 20px;
+    border-image-repeat: round round;
+    border-image-source: url("/assets/img/lace.png");
+    border-style: solid;
     border-radius: 2px;
-    box-shadow: 2px 2px 0px var(--darker-bg-color);
+}
+
+.innerbox {
+    border-image-slice: 27 27 27 27;
+    border-image-width: 12px 12px 12px 12px;
+    border-image-outset: 5px 4px 5px 4px;
+    border-image-repeat: round round;
+    border-image-source: url("/assets/img/box.png");
+    border-style: solid;
+    border-radius: 20px;
+    margin: 5px;
 }
