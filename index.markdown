@@ -5,12 +5,17 @@ title: meowpricot.art
 
 ## welcome!
 
-Hello world!
+<b>SITE IS VERY BIG WIP!!!</b>
+<br><br>
 
-Site is in an extreme WIP state.
+Hello and welcome to [meowpricot.art](/index)!<br>
+This is my super epic and cool website on the internet.
+It has cool things like an about page
 
-<br>*Come back later, OK?*
-
+<br>Anyway have fun!! Thank you for stopping by!
+<br>
 <hr>
-test
 
+## update log
+- 05.11.2025 - site now looks 'presentable'
+- 04.11.2025 - start work
