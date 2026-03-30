@@ -13,5 +13,3 @@ title: credits
 - guestbook widget : [ayano's neocities comment widget](https://virtualobserver.moe/ayano/comment-widget)
 - guestbook widget moderation : [frills’ moderation add-on](https://frills.dev/blog/231023-add-moderation-to-comment-widget/)
 - guestbook admin verification : [loveberry’s admin verification add-on](https://loveberry.nekoweb.org/resources/snippets/guide/admin/)
-
-test edit to make sure github is working!
