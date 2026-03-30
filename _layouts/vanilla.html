@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>meowpricot.art - {{ page.title }}</title>
+    <!-- link relationships -->
+    <link rel="shortcut icon" href="/cats/img/favicon.gif">
+    <link rel="stylesheet" href="/cats/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/cats/css/biscuit.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+        <header>{% include header.html %}</header>
+        <div class="flex">
+        <nav>{% include nav.html %}</nav>
+        <main>{{ content }}</main>
+        </div>
+        <footer>{% include footer.html %}</footer>
+    </div>
+  </body>
+</html>

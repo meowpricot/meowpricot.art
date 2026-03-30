@@ -1,0 +1,8 @@
+<div class="scrollbox">
+    <dl>
+    {% for item in site.data.updates %}
+    <dt><em>{{ item.date }}</em> ~ {{ item.update }}</dt>
+    <dd>{{ item.content }}</dd>
+    {% endfor %}
+    </dl>
+</div>
