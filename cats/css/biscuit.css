@@ -50,7 +50,7 @@ h1 {
 h2 {
     border: 1px dotted yellowgreen;
     border-bottom: 1px solid tan;
-    color: olive;
+    color: darkolivegreen;
     background-color: ivory;
     padding: 2px;
     margin-bottom: 2px;
@@ -85,7 +85,7 @@ h3::before {
 }
 
 a {
-    color: olive;
+    color: darkolivegreen;
     font-style: italic;
     text-decoration: none;
     border-bottom: 1px solid dotted;
@@ -131,11 +131,12 @@ nav a::before {
 }
 
 textarea {
-    background-color: floralwhite;
+    background-color: white;
     border: 1px dotted sandybrown;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: tan;
+    color: sienna;
+    text-shadow: papayawhip 0px 0px 2px;
 }
 
 #latest_art {
@@ -152,12 +153,12 @@ main {
 }
 
 em {
-    color: salmon;
+    background-color: PapayaWhip;
     font-style: italic;
 }
 
 strong {
-    color: olive;
+    color: darkolivegreen;
     font-weight: bold;
 }
 
@@ -174,7 +175,7 @@ hr {
 
 .small {
     font-size: 10px;
-    color: salmon;
+    color: Crimson;
 }
 
 ul {
@@ -255,6 +256,7 @@ footer {
     border-top: 1px solid darkgoldenrod;
     background-image: url("/cats/img/clover_tile.gif");
     color: snow;
+    background-color: green;
     font-weight: bold;
     padding: 4px;
     font-size: 10px;

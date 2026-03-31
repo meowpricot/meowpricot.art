@@ -15,3 +15,6 @@ title: sitemap
     - [youraislopboresme is actually really cool!](/2026/03/09/youraislopboresme-is-actually-really-cool.html) *sharing my favourite interactions with strangers larping as AI*
     - [happy pokemon day 2026!](/2026/02/27/happy-pokemon-day-2026.html) *post on pokemon day 2026! mainly a yap about how much i like espurr*
     - [how (and-why) you should make a website](/2026/02/19/how-(and-why)-you-should-make-a-website.html) *a messy post targeted towards my friend group on how to make a website*
+
+### other pages
+- [accessibility](/accessibility.html) *accessibility statement*
