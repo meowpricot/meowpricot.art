@@ -1,14 +1,20 @@
-# my website!
-my personal website, [meowpricot.art](https://meowpricot.art)! made with love <3
-![](https://meowpricot.art/cats/img/bg_tile.gif)
+# my website
 
-## installation & usage
-1. clone this repo
-```git clone https://github.com/meowpricot/meowpricot.art.git meowpricot.art```
-```cd meowpricot.art```
+ᓚᘏᗢ [https://meowpricot.art/](https://meowpricot.art/)
 
-2. run site locally
-```jekyll serve --livereload```
+## cloning & running
 
-view changes in browser via [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+```bash
+  git clone https://github.com/meowpricot/meowpricot.art.git
+  cd meowpricot.art
+```
 
+```bash
+  jekyll serve --livereload
+```
+
+view live changes via [http://127.0.0.1:4000/](http://127.0.0.1:4000/) !
+
+---
+
+byebye ! ฅ₍^•⩊ •マⳊ
