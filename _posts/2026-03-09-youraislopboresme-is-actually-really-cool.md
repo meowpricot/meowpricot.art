@@ -41,5 +41,5 @@ hi chat. another global trend has hit the social media.
 <div class="float_right">- with love, meowpricot</div>
 <br><br>
 
-<div class="center">| <a href="/blog.html">BLOG HOME</a> |
+<div class="center">| <a href="/blog">BLOG HOME</a> |
 </div>

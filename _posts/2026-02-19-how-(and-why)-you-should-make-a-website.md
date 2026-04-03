@@ -157,5 +157,5 @@ that's it! of course, there's so much more that you can do with your site, and t
 <div class="float_right">- with love, meowpricot</div>
 <br><br>
 
-<div class="center">| <a href="/blog.html">BLOG HOME</a> |
+<div class="center">| <a href="/blog">BLOG HOME</a> |
 </div>

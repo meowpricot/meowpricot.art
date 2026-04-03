@@ -1,0 +1,55 @@
+<!-- ฅ₍^•⩊ •マⳊ -->
+<!-- well, hello! if it isn't our newest student! -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="meowpricot">
+    <meta name="description" content="meowpricot's shrine to wizard101">
+    <!-- embed tags -->
+    <meta property="og:title" content="meowpricot.art" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://meowpricot.art" />
+    <meta property="og:image" content="https://meowpricot.art/cats/img/site_embed.png" />
+    <meta property="og:description" content="meowpricot's shrine to wizard101" />
+    <meta name="theme-color" content="#FFB6C1">
+    <!-- end meta tags -->
+    <title>{{ page.title }} ~ meowpricot.art</title>
+    <!-- link relationships -->
+    <link rel="shortcut icon" href="/cats/img/wizard101/life.png">
+    <link rel="stylesheet" href="/cats/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/cats/css/wizardcity.css" type="text/css">
+  </head>
+  <body>
+    <div id="astral_banner"></div>
+    <div class="container_header">
+        <header><h1>A Theurgist's Letter to the Spiral</h1></header>
+    </div>
+    <main>
+    <div class="container">
+        <div id="staff"></div>
+        <div id="emma"></div>
+        <div id="forest_beast"></div>
+        {{ content }}
+    </div>
+      <div class="container">
+        {% include wizard101/wiz_love.html %}
+    </div>
+    <div class="container">
+        {% include wizard101/wiz_chara.html %}
+    </div>
+    <div class="container">
+        <div id="moon"></div>
+        {% include wizard101/wiz_resources.html %}
+    </div>
+    </main>
+    <div class="container">
+        <footer>
+        {% include wizard101/wiz_footer.html %}
+        </footer>
+    </div>
+  </body>
+</html>
+<!-- ₍^. .^₎Ⳋ -->

@@ -252,6 +252,48 @@ dt {
     color: darkgoldenrod;
 }
 
+#shrine_wizard {    
+    image-rendering: crisp-edges;
+    display: block;
+    color: white;
+    padding: 20px;
+    background-image: url("/cats/img/wizard101/header.png");
+    background-size: cover;
+    background-position: 10%;
+    border: 3px double burlywood;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+#shrine_wizard:hover {
+    filter: brightness(120%);
+}
+
+#shrine_wizard span {
+    font-weight: bold;
+    filter: drop-shadow(0px 1px green) drop-shadow(0 -1px green) drop-shadow(1px 0 green) drop-shadow(-1px 0 green);
+}
+
+#forest_beast {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/wizard101/forest_beast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    top: 0px;
+    right: 20px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px tan) 
+    drop-shadow(-1px 0px 0px tan)
+    drop-shadow( 0px 1px 0px tan) 
+    drop-shadow( 0px -1px 0px tan)
+    drop-shadow( 0px 0px 1px tan)
+    drop-shadow( 0px 0px 1px brown);
+}
+
 footer {
     border-top: 1px solid darkgoldenrod;
     background-image: url("/cats/img/clover_tile.gif");

@@ -58,5 +58,5 @@ that's all i have energy for on this sweltering day!! im excited for the pokemon
 <div class="float_right">- with love, meowpricot</div>
 <br><br>
 
-<div class="center">| <a href="/blog.html">BLOG HOME</a> |
+<div class="center">| <a href="/blog">BLOG HOME</a> |
 </div>
