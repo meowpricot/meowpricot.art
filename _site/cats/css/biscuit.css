@@ -84,6 +84,10 @@ h3::before {
     padding-right: 4px;
 }
 
+h5 {
+    border-bottom: 1px dotted sienna;
+}
+
 a {
     color: darkolivegreen;
     font-style: italic;
@@ -294,6 +298,30 @@ dt {
     drop-shadow( 0px 0px 1px brown);
 }
 
+.artbox {
+    text-align: center;
+}
+
+.artbox img {
+    height: 300px;
+    border: 1px dotted brown;
+    position: relative;
+    transition: 0.1s ease-in-out;
+    top: 0;
+}
+
+.artbox img:hover {
+    top: -2px;
+}
+
+.website_button {
+    margin-right: 5px;
+}
+
+.socials {
+    flex-grow: 1;
+}
+
 footer {
     border-top: 1px solid darkgoldenrod;
     background-image: url("/cats/img/clover_tile.gif");
@@ -326,5 +354,16 @@ footer {
   }
   .blog_img {
     width: 100%;
+  }
+  .artbox {
+    margin-right: 2px;
+  }
+  .artbox img {
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+  }
+  .website_button {
+    margin-right: 0px;
   }
 }

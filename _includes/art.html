@@ -1,0 +1,5 @@
+<div class="artbox">
+    {% for item in site.data.art %}
+        <a href="{{ item.highres }}"><img src="{{ item.href }}" alt="{{ item.alt }}"></a>
+    {% endfor %}
+</div>
