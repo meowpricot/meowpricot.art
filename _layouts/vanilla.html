@@ -21,16 +21,18 @@
     <!-- link relationships -->
     <link rel="shortcut icon" href="/cats/img/favicon.gif">
     <link rel="stylesheet" href="/cats/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="/cats/css/biscuit.css" type="text/css">
+    <link rel="stylesheet" href="/cats/css/biscuit.css?v=1.1" type="text/css">
   </head>
   <body>
-    <div class="container">
-        <header>{% include header.html %}</header>
-        <div class="flex">
-        <nav>{% include nav.html %}</nav>
-        <main>{{ content }}</main>
-        </div>
-        <footer>{% include footer.html %}</footer>
+    <div class="lace">
+      <div class="container">
+          <header>{% include header.html %}</header>
+          <div class="flex">
+          <nav>{% include nav.html %}</nav>
+          <main>{{ content }}</main>
+          </div>
+          <footer>{% include footer.html %}</footer>
+      </div>
     </div>
   </body>
 </html>

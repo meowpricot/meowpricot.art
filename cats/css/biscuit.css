@@ -19,10 +19,18 @@ textarea::selection {
     background-color: white;
 }
 
+.lace {
+    border-color: transparent;
+    border-image:  url("/cats/img/lace.gif") 7 /  7px / 0 round;
+    border-width:  7px;
+    border-style:  solid;
+    max-width: 680px;
+    margin: auto;
+}
+
 .container {
     background-color: snow;
-    border: 3px double darkgoldenrod;
-    box-shadow: tan 0px 6px 12px -2px, tan 0px 3px 7px -3px;
+    border: 3px double #d17c3b;
     max-width: 680px;
     margin: auto;
     position: relative;
@@ -32,7 +40,7 @@ textarea::selection {
 header {
     background-image: url("/cats/img/header.gif");
     background-size: cover;
-    border-bottom: 1px solid darkgoldenrod;
+    border-bottom: 1px solid #d17c3b;
     height: 140px;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
@@ -253,7 +261,7 @@ dt {
 }
 
 .a_blog {
-    color: darkgoldenrod;
+    color: #d17c3b;
 }
 
 #shrine_wizard {    
@@ -323,7 +331,7 @@ dt {
 }
 
 footer {
-    border-top: 1px solid darkgoldenrod;
+    border-top: 1px solid #d17c3b;
     background-image: url("/cats/img/clover_tile.gif");
     color: snow;
     background-color: green;

@@ -1,2 +1,12 @@
 .jekyll-cache/
 _site/
+
+# stuff that isn't done
+# wiki page
+_apripedia/
+_data/oc_mainpage.yml
+_includes/wiki/
+_layouts/wiki.html
+cats/css/wiki.css
+cats/img/wiki/
+apripedia.md
