@@ -7,7 +7,6 @@ title: credits
 *futhermore*, if any graphics used were created by you and wish to be removed from this site, please contact me and i'll happily remove them!
 ### graphics
 - flower bullets, diamond bullet, arrows, background: [fool lovers](https://foollovers.com/)
-- header gif: [pinterest](https://au.pinterest.com/pin/14777505021480224/) *but i'm fairly sure it's from howl's moving castle*
 - **wizard101 shrine** star, moon, sun icons, repeating scroll texture, icon border, pip icon [wizard101](https://www.wizard101.com/) *ripped and edited by me*
 
 ### code

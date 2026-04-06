@@ -39,8 +39,8 @@ textarea::selection {
 
 header {
     background-image: url("/cats/img/header.gif");
-    background-size: cover;
-    border-bottom: 1px solid #d17c3b;
+    background-size: contain;
+    border-bottom: 3px double #d17c3b;
     height: 140px;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
@@ -52,7 +52,11 @@ h1 {
     color: white;
     padding-top: 65px;
     text-align: center;
-    filter: drop-shadow(0px 1px tan) drop-shadow(0 -1px tan) drop-shadow(1px 0 tan) drop-shadow(-1px 0 tan);
+    filter: 
+    drop-shadow(0px 1px lightcoral) 
+    drop-shadow(0 -1px lightcoral) 
+    drop-shadow(1px 0 lightcoral) 
+    drop-shadow(-1px 0 lightcoral);
 }
 
 h2 {
@@ -215,6 +219,162 @@ dt {
 .cliques {
     flex: 1;
     margin-left: 2.5px;
+}
+
+#kitty {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/kitty.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 114px;
+    top: 70px;
+    right: -50px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+#strawberry {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/strawberry.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 48px;
+    top: 10px;
+    right: 5px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+#apple {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/apple.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+    top: -5px;
+    right: 70px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+#pudding {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/pudding.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 51px;
+    top: 50px;
+    left: -20px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+#cherry {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/cherry.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 49px;
+    top: 85px;
+    left: 30px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+#apricot {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/apricot.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 51px;
+    height: 52px;
+    bottom: -30px;
+    right: -30px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+.heart {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/heart.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 16px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
+}
+
+.star {
+    image-rendering: crisp-edges;
+    position: absolute;
+    background-image: url("/cats/img/star.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 11px;
+    z-index: 100;
+    filter: 
+    drop-shadow( 1px 0px 0px #ffeeeb) 
+    drop-shadow(-1px 0px 0px #ffeeeb)
+    drop-shadow( 0px 1px 0px #ffeeeb) 
+    drop-shadow( 0px -1px 0px #ffeeeb)
+    drop-shadow( 0px 0px 1px #ffeeeb)
+    drop-shadow( 0px 0px 1px pink);
 }
 
 #meIMG {
