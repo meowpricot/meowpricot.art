@@ -7,4 +7,4 @@ some of my favourite art pieces! you can click on a piece to view it in full res
 <br>
 <a href="https://vgen.co/meowpricot">(i also do commissions!)</a>
 
-{% include art.html %}
+{% include art.html %} 
