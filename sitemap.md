@@ -13,6 +13,9 @@ title: sitemap
 ### me
 - [about](/about) *a page about. about me. hi*
 - [art](/art) *my artwork!*
+- [original characters](/apripedia) *my ocs!*
+    - [biscuit](/apripedia/biscuit) *my fursona*
+    - [ribbon](/apripedia/ribbon) *ribbon, the crimstain*
 - [blog](/blog) *my blog where i yap about anything, really*
     - [youraislopboresme is actually really cool!](/2026/03/09/youraislopboresme-is-actually-really-cool) *sharing my favourite interactions with strangers larping as AI*
     - [happy pokemon day 2026!](/2026/02/27/happy-pokemon-day-2026) *post on pokemon day 2026! mainly a yap about how much i like espurr*
