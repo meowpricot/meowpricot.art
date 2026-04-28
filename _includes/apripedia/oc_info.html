@@ -1,0 +1,34 @@
+<table class="oc_sidebox">
+    <tr><th colspan="2">{{ page.name }}</th></tr>
+    <tr><td colspan="2"><img src="{{ page.img }}"></td></tr>
+
+    {% if page.species %}
+        <tr><th>species</th><td>{{ page.species }}</td></tr>
+    {% endif %}
+
+    {% if page.pronouns %}
+        <tr><th>pronouns</th><td>{{ page.pronouns }}</td></tr>
+    {% endif %}
+
+    {% if page.gender %}
+        <tr><th>gender</th><td>{{ page.gender }}</td></tr>
+    {% endif %}
+
+    {% if page.age %}
+        <tr><th>age</th><td>{{ page.age }}</td></tr>
+    {% endif %}
+
+    {% if page.birthday %}
+        <tr><th>birthday</th><td>{{ page.birthday }}</td></tr>
+    {% endif %}
+
+    {% if page.height %}
+        <tr><th>height</th><td>{{ page.height }}</td></tr>
+    {% endif %}
+
+    <!-- test to make sure if statement works -->
+    {% if page.foo %}
+        <tr><th>foo</th><td>{{ page.foo }}</td></tr>
+    {% endif %}
+
+</table>

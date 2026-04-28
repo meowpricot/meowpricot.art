@@ -1,0 +1,8 @@
+{% for item in site.data.ocs %}
+    <a class="ocbox_a" href="{{ item.page }}">
+        <div class="ocbox">
+            <img src="{{ item.image }}">
+            <span>{{ item.name }}</span>
+        </div>
+    </a>
+{% endfor %}

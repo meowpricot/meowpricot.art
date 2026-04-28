@@ -1,0 +1,6 @@
+- name: biscuit
+  image: /cats/img/apripedia/biscuit.PNG
+  page: /apripedia/biscuit
+- name: ribbon
+  image: /cats/img/apripedia/ribbon.png
+  page: /apripedia/ribbon

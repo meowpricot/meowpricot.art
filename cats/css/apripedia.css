@@ -1,0 +1,258 @@
+body {
+    background-color: snow;
+    color: sienna;
+    padding: 30px;
+    font-size: 13px;
+    line-height: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+::selection {
+    color: tan;
+    background-color: floralwhite;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    filter: 
+    drop-shadow(0px 1px sienna) 
+    drop-shadow(0 -1px sienna) 
+    drop-shadow(1px 0 sienna) 
+    drop-shadow(-1px 0 sienna);
+    font-size: 2em;
+
+    color: transparent;
+    background: url("/cats/img/apripedia/wave.png") repeat-x #fff;
+    background-clip: border-box;
+    background-size: 200% 100%;
+
+    background-clip: text;
+    transition: background-position-y 0.6s ease;
+    animation: waveAnimation 4s infinite linear;
+    animation-play-state: running;
+}
+
+@keyframes waveAnimation{
+    from { background-position-x: 0%; }
+    to { background-position-x: 200%; }
+}
+
+header {
+    position: relative;
+    top: 0px;
+}
+
+header:hover {
+    top: -2px;
+}
+
+header a {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: 1px solid burlywood;
+    display: flow-root;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid burlywood;
+    display: flow-root;
+}
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    border-bottom: 1px dashed burlywood;
+    display: flow-root; 
+}
+
+#subtitle {
+    font-weight: 600;
+    font-style: italic;
+    opacity: 70%;
+    color: sienna;
+}
+
+em {
+    background-color: PapayaWhip;
+    font-style: italic;
+}
+
+a {
+    color: darkolivegreen;
+}
+
+b {
+    font-weight: bolder;
+    border-bottom: 1px dotted sienna;
+}
+
+.shy {
+    font-style: italic;
+    opacity: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.infobox h3 {
+    border: 1px dotted yellowgreen;
+    font-size: 18px;
+    padding: 5px;
+    background-color: beige;
+    font-weight: bold;
+}
+
+.infobox {
+    border: 1px dotted yellowgreen;
+    padding: 5px;
+    background-color: ivory;
+}
+
+.infobox_content {
+    padding: 5px;
+}
+
+.oc_infobox {
+    border: 1px dotted tomato;
+    background-color: oldlace;
+}
+
+.oc_infobox h3 {
+    border: 1px dotted tomato;
+    background-color: mistyrose;
+}
+
+.ocbox {
+    margin: 5px;
+    padding: 5px;
+    border: 1px dotted palevioletred;
+    background-color: mistyrose;
+    text-align: center;
+}
+
+.ocbox img {
+    border: 1px dotted palevioletred;
+    width: 100px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ocbox_a {
+    color: sienna;
+    text-decoration: none;
+    position: relative;
+}
+
+.ocbox_a:hover {
+    position: relative;
+    top: -5px;
+}
+
+.oc_sidebox {
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: snow;
+    margin: 10px;
+    z-index: 100;
+}
+
+table img {
+    width: 260px;
+}
+
+tbody {
+  background-color: white;   
+}
+
+td, th {
+  border: 1px dotted burlywood;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+    background-color: mistyrose;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    margin-left: 25px;
+}
+
+.gallery a {
+    text-decoration: none;
+    position: relative;
+    margin: 5px;
+    top: 0px;
+}
+
+.gallery img {
+    max-height: 262px;
+    border: 1px dotted burlywood;
+}
+
+.gallery a:hover {
+    top: -5px;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid burlywood;
+    font-style: italic;
+    opacity: 70%;
+    display: flow-root;
+}
+
+/* mobile compatibility */
+
+@media (max-width: 768px) {
+  .flex {
+    display: inline;
+  }
+  .oc_sidebox {
+    float: none;
+    margin: auto;
+  }
+  .oc_sidebox img {
+    max-width: 200px;
+  }
+  .gallery {
+    margin: auto;
+    text-align: center;
+  }
+  .gallery img {
+    max-width: 100%;
+    text-align: center;
+    margin: auto !important;
+  }
+}

@@ -1,0 +1,44 @@
+<!-- ฅ₍^•⩊ •マⳊ -->
+<!-- muoy ocs -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="meowpricot">
+    <meta name="description" content="meowpricot's personal site for all their hobbies!">
+    <!-- embed tags -->
+    <meta property="og:title" content="meowpricot.art" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://meowpricot.art" />
+    <meta property="og:image" content="https://meowpricot.art/cats/img/site_embed.png" />
+    <meta property="og:description" content="meowpricot's personal site for all their hobbies!" />
+    <meta name="theme-color" content="#FFB6C1">
+    <!-- end meta tags -->
+    <title>{{ page.title }} ~ meowpricot.art</title>
+    <!-- link relationships -->
+    <link rel="shortcut icon" href="/cats/img/favicon.gif">
+    <link rel="stylesheet" href="/cats/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="/cats/css/apripedia.css?v=1.0" type="text/css">
+    <!-- fancybox -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+  </head>
+  <body>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+        });
+    </script>
+    <div class="main">
+        <header>{% include apripedia/header.html %}</header>
+        <h2>{{ page.subtitle }}</h2>
+        <main>{{ content }}</main>
+        <footer>{% include apripedia/footer.html %}</footer>
+    </div>
+  </body>
+</html>
+<!-- ₍^. .^₎Ⳋ -->
