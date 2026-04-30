@@ -32,7 +32,7 @@ their main weapon, <em>heartbreaker</em>, is a grey greatsword about the same he
 
 ### personality
 
-ribbon is an excitable crimstain with a large appetite for... a lot of things. like pudding, human blood, combat, and their partner, francell! they are always bouncing around and getting into trouble, often acting before thinking. this gets them into trouble often.
+ribbon is an excitable crimstain with a large appetite for... a lot of things. like pudding, human blood, combat, and their partner, francell! they are always bouncing around and getting into trouble.
 
 <br><br>despite their aptitude for Not Thinking Much, ribbon is an extremely keen person when it comes to deciphering how someone actually feels. they can quickly tell if someone is hiding something, or if they're acting coy - but ribbon will not sugar coat how that makes them feel, either.
 <br><br>
